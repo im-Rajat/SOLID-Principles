@@ -1,4 +1,4 @@
-# SOLID-Principles
+# SOLID Principles
 
 
 **References:**
