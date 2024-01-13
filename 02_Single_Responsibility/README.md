@@ -9,7 +9,6 @@
 
 ```cpp
 public class Employee {
-
     private String fullName;
     private String dateOfJoining;
     private String annualSalaryPackage;
@@ -17,13 +16,13 @@ public class Employee {
     // standard getters and setters methods
 
     // business logic
-    public tong calculateEmployeeSalary( Employee emp) {...}
-    public tong calculateEmployeeLeaves(Employee emp) {...}
+    public long calculateEmployeeeSalary(Employee emp) {...}
+    public long calculateEmployeeLeaves(Employee emp) {...}
     public long calculateTaxOnSaIary(Employee emp) {...}
 
     // data persistence logic
-    public Employee saveEmployee( Employee emp) {...}
-    public Employee updateEmployee( Employee emp) ...}
+    public Employee saveEmployee(Employee emp) {...}
+    public Employee updateEmployee(Employee emp) ...}
 }
 ```
 
@@ -32,7 +31,7 @@ public class Employee {
 - We can split a single Employee class into multiple classes as per their specific responsibility.
 - It made our class loosely coupled, easy to maintain, and only single reason to modify.
 
-```cpp
+```java
 public class Employee {
     private String fullName;
     private String dateOfJoining;
@@ -42,19 +41,17 @@ public class Employee {
 }
 
 public class EmployeeService {
+    // ...
 
-    //..
-
-    public long calculateEmployeeSalary( Employee emp) {...}
-    public long calculateEmployeeLeaves( Employee emp) {...}
+    public long calculateEmployeeSalary(Employee emp) {...}
+    public long calculateEmployeeLeaves(Employee emp) {...}
     public long calculateTaxOnSalary(Employee emp) {...}
 }
 
 public class EmployeeDAO {
-
     // ...
 
-    public Employee saveEmployee(Emptoyee emp) {...}
-    public Employee updateEmp10yee(Employee emp) {...}
+    public Employee saveEmployee(Employee emp) {...}
+    public Employee updateEmployee(Employee emp) {...}
 }
 ```
