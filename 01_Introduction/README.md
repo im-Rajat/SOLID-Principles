@@ -2,7 +2,7 @@
 
 SOLID principles are important design principles in OOP languages like Java, Python, C++, etc.
 
-**SOLID stands for:**
+### SOLID stands for:
 
 S = Single Responsibility Principle  
 O = Open/Closed Principle  
