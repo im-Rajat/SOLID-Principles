@@ -1,6 +1,6 @@
 # Introduction
 
-**SOLID stands for :**
+**SOLID stands for:**
 
 S = Single Responsibility Principle  
 O = Open/Closed Principle  
