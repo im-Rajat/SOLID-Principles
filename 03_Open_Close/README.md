@@ -5,7 +5,6 @@
 ### Bad Implementation :
 
 - Below EmployeeSalary class calculates salary based on employee type: Permanent and Contractual.
-
 - Issue: In the future, if a new type (Part-time Employee) comes then the code needs to be modified to calculate the salary based on employee type.
 
 ```java
