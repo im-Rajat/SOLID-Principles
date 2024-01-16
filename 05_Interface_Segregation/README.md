@@ -16,7 +16,6 @@ public interface Vehicle {
     void fly() {}
 }
 
-
 public class Aeroplane implements Vehicle {
     @Override
     public void accelerate() {...}
