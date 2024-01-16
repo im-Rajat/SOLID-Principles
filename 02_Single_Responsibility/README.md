@@ -16,9 +16,9 @@ public class Employee {
     // standard getters and setters methods
 
     // business logic
-    public long calculateEmployeeeSalary(Employee emp) {...}
+    public long calculateEmployeeSalary(Employee emp) {...}
     public long calculateEmployeeLeaves(Employee emp) {...}
-    public long calculateTaxOnSaIary(Employee emp) {...}
+    public long calculateTaxOnSalary(Employee emp) {...}
 
     // data persistence logic
     public Employee saveEmployee(Employee emp) {...}
