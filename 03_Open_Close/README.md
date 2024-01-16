@@ -34,7 +34,7 @@ public interface EmployeeSalary {
     public long calculateSalary();
 }
 
-public class ParmanentEmployeeSalary implements EmployeeSalary {
+public class PermanentEmployeeSalary implements EmployeeSalary {
     @Override
     public long calculateSalary() {
         salary = (totalWorkingDay * basicPay) + getCompanyBenefits() + getBonus();
