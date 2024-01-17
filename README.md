@@ -13,7 +13,6 @@ I  = Interface Segregation Principle
 D = Dependency Inversion Principle  
 
 
-### References:
-
+#### References:
 - Quora, ChatGPT
 - https://twitter.com/vikasrajputin/status/1593460494886576128
