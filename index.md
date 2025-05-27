@@ -13,6 +13,13 @@ layout: default
 
 ---
 
+## [Single Responsibility](#){: .section-title onclick="toggleSection('single-responsibility')" }
+<div id="single-responsibility" class="section-content" style="display: none;">
+{% include_relative 02_Single_Responsibility/README.md %}
+</div>
+
+--
+
 <div class="section-container">
   <h2 class="section-title" onclick="toggleSection('single-responsibility')">Single Responsibility Principle</h2>
   <div id="single-responsibility" class="section-content" style="display: none;">
