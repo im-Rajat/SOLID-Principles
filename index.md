@@ -6,11 +6,9 @@ layout: default
 
 ---
 
-<div class="section-container">
-  <h2 class="section-title" onclick="toggleSection('introduction')">Introduction</h2>
-  <div id="introduction" class="section-content" style="display: none;">
-    {% include_relative 01_Introduction/README.md %}
-  </div>
+## [Introduction](#){: .section-title onclick="toggleSection('introduction')" }
+<div id="introduction" class="section-content" style="display: none;">
+{% include_relative 01_Introduction/README.md %}
 </div>
 
 ---
